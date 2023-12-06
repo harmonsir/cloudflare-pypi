@@ -17,6 +17,23 @@
 *反馈请提Issues*
 
 
+## 更新
+
+API内置`mappings`可以指定其他源， 譬如`https://pip.pylab.me/qh`，将会使用清华源。
+
+```
+mappings = {
+  "/qh": "https://pypi.tuna.tsinghua.edu.cn/simple/",
+  "/tuna": "https://pypi.tuna.tsinghua.edu.cn/simple/",
+  "/hw": "https://repo.huaweicloud.com/repository/pypi/simple/",
+  "/huawei": "https://repo.huaweicloud.com/repository/pypi/simple/",
+  "/ali": "https://mirrors.aliyun.com/pypi/simple/",
+  "/alibaba": "https://mirrors.aliyun.com/pypi/simple/",
+  "/ustc": "https://pypi.mirrors.ustc.edu.cn/simple/",
+  "/tx": "https://mirrors.cloud.tencent.com/pypi/simple/",
+}
+```
+
 ## 国内常见的PyPI镜像加速
 
 - 清华
